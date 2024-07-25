@@ -1,0 +1,53 @@
+body{
+font-family: "Arial", sans-serif;
+}
+
+#page_container {
+    width: 1700px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175);
+    border: 1px solid black;
+    padding-bottom: 200px;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+    align-items: center;
+    padding-left: 750px;
+    margin-top: 0px;
+    margin-top: 30px;
+    
+
+}
+
+#logo img {
+    width: 200px;
+}
+
+#header {
+    background-color: #251B11;
+    padding-bottom: 140px;
+}
+
+
+#page_title {
+    background-color: #251B11;
+    padding-top: 21px;
+    padding-bottom: 100px;
+    
+    text-align: center;
+}
+
+.title_one {
+
+    position: relative;
+    left: -40%;
+
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 80px;
+    color: white;
+    
+  }
