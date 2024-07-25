@@ -51,3 +51,33 @@ font-family: "Arial", sans-serif;
     color: white;
     
   }
+
+  #rain_cook {
+    float: left;
+    width: 560px;
+    text-align: center;
+    
+    
+  }
+
+  #rain_cook li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  
+  #straw_cone {
+    float: left;
+    width: 560px;
+    text-align: center;
+    list-style-type: none;
+  }
+
+
+  
+  #lem_loaf {
+    float: left;
+    width: 560px;
+    text-align: center;
+    list-style-type: none;
+  }
