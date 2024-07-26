@@ -8,6 +8,7 @@ font-family: "Arial", sans-serif;
     box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175);
     border: 1px solid black;
     padding-bottom: 200px;
+    background-color: blanchedalmond;
 }
 
 #logo {
@@ -63,6 +64,7 @@ font-family: "Arial", sans-serif;
   #rain_cook li {
     text-decoration: none;
     list-style-type: none;
+    padding-right: ;
   }
 
   
@@ -72,6 +74,11 @@ font-family: "Arial", sans-serif;
     text-align: center;
     list-style-type: none;
   }
+  #straw_cone li {
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 20px;
+  }
 
 
   
@@ -80,4 +87,16 @@ font-family: "Arial", sans-serif;
     width: 560px;
     text-align: center;
     list-style-type: none;
+    
+  }
+
+  #lem_loaf li {
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 20px;
+  }
+
+  #title_specials {
+    width: 1700px;
+    text-align: center;
   }
