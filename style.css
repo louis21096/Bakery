@@ -1,102 +1,143 @@
-body{
-font-family: "Arial", sans-serif;
+body {
+  font-family: "Arial", sans-serif;
 }
 
 #page_container {
-    width: 1700px;
-    margin: 0 auto;
-    box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175);
-    border: 1px solid black;
-    padding-bottom: 200px;
-    background-color: blanchedalmond;
+  width: 1700px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175);
+  border: 1px solid black;
+  padding-bottom: 200px;
+  background-color: blanchedalmond;
 }
 
 #logo {
-    width: 200px;
-    float: left;
-    align-items: center;
-    padding-left: 750px;
-    margin-top: 0px;
-    margin-top: 30px;
-    
-
+  width: 200px;
+  float: left;
+  align-items: center;
+  padding-left: 750px;
+  margin-top: 0px;
+  margin-top: 30px;
 }
 
 #logo img {
-    width: 200px;
+  width: 200px;
 }
 
 #header {
-    background-color: #251B11;
-    padding-bottom: 140px;
+  background-color: #251b11;
+  padding-bottom: 140px;
 }
 
-
 #page_title {
-    background-color: #251B11;
-    padding-top: 21px;
-    padding-bottom: 100px;
-    
-    text-align: center;
+  background-color: #251b11;
+  padding-top: 21px;
+  padding-bottom: 100px;
+
+  text-align: center;
 }
 
 .title_one {
+  position: relative;
+  left: -40%;
 
-    position: relative;
-    left: -40%;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-weight: weight;
+  font-style: normal;
+  margin-top: 80px;
+  color: white;
+}
 
-    font-family: "Edu AU VIC WA NT Hand", cursive;
-    font-weight: weight;
-    font-style: normal;
-    margin-top: 80px;
-    color: white;
-    
-  }
+.title_two {
+  position: relative;
+  left: 2%;
 
-  #rain_cook {
-    float: left;
-    width: 560px;
-    text-align: center;
-    
-    
-  }
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-weight: weight;
+  font-style: normal;
+  margin-top: -74px;
 
-  #rain_cook li {
-    text-decoration: none;
-    list-style-type: none;
-    padding-right: ;
-  }
+  color: white;
+  float: left;
+}
+
+#special_deals {
+  background: black url(/resources/rain_blue_straw.png) no-repeat center;
+  background-size: cover;
+  padding-bottom: 700px;
+  padding-top: 1px;
+}
+
+
+#rain_cook {
+  float: left;
+  width: 560px;
+  text-align: center;
+  
+  background-color: white;
+  border-radius: 200px;
+  opacity: 0.75;
+}
+
+#rain_cook li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#straw_cone {
+  float: left;
+  width: 560px;
+  text-align: center;
+  list-style-type: none;
+ 
+  
+  background-color: white;
+  border-radius: 200px;
+  opacity: 0.75;
+}
+#straw_cone li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+#lem_loaf {
+  float: left;
+  width: 560px;
+  text-align: center;
+  list-style-type: none;
+  
+  margin-left: 1132px;
+  background-color: white;
+  border-radius: 200px;
+  opacity: 0.75;
+}
+
+#lem_loaf li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+#title_specials {
+  width: 400px;
+  text-align: center;
+  margin-left: 650px;
 
   
-  #straw_cone {
-    float: left;
-    width: 560px;
-    text-align: center;
-    list-style-type: none;
-  }
-  #straw_cone li {
-    text-decoration: none;
-    list-style-type: none;
-    padding-right: 20px;
-  }
+  background-color: white;
+}
 
+#about_us {
+  margin: auto;
+}
 
-  
-  #lem_loaf {
-    float: left;
-    width: 560px;
-    text-align: center;
-    list-style-type: none;
-    
-  }
+#three_pic {
+  float: left;
+  width: 1700px;
+  margin-top: -20px;
+}
 
-  #lem_loaf li {
-    text-decoration: none;
-    list-style-type: none;
-    padding-right: 20px;
-  }
-
-  #title_specials {
-    width: 1700px;
-    text-align: center;
-  }
+#three_pic img {
+  width: 1700px;
+}
